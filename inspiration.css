@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  background-image: url("image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+.title {
+  text-align: center;
+  padding: 1em;
+  border: 1px solid #000000;
+  position: relative;
+  flex: 1 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  line-height: 1.3;
+  font-weight: 900;
+  max-width: 100%;
+  color: #000000;
+}
+.top-section {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: #555c62;
+  padding: 2em;
+  margin: 200px 100px 0px 100px;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation-name: beat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.logo-circle a {
+  color: inherit;
+}
+@keyframes beat {
+  0% {
+    color: rgb(200, 189, 253);
+  }
+  50% {
+    color: rgb(176, 255, 176);
+  }
+  100% {
+    color: rgb(255, 255, 176);
+  }
+}
